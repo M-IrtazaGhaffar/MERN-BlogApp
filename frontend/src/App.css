@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&family=Roboto&display=swap');
+
+.page {
+    margin: 0 auto 0 -40px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.scroll {
+    height: 300px;
+    width: 40px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+::-webkit-scrollbar-track {
+    /* border-radius: 10px; */
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #e4e4e4);
+    border: 1px solid #aaa;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+::-webkit-scrollbar-thumb:active{
+    background: linear-gradient(left, #22ADD4, #1E98BA);
+  }
+
+.Luckiest {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.fullHeight
+{
+  height: 100vh;
+}
+
+.height-100percent
+{
+  height: 100%;
+}
+.width-100percent
+{
+  width: 100%;
+}
+
+.height-1000px
+{
+  height: 1000px;
+}
+
+.activeNav
+{
+  background-color: rgba(240, 82, 82, 0.8);
+  color: whitesmoke;
+}
